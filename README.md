@@ -21,3 +21,22 @@ It demonstrates end-to-end Infrastructure as Code (IaC) practices, modular desig
 2. Initialize Terraform:
 ```bash
 terraform init
+
+2. Preview the plan:
+terraform plan
+
+3. Apply changes:
+terraform apply
+
+4. How to Destroy
+terraform destroy
+
+Tools & Versions
+Terraform >= 1.5.0
+AzureRM Provider >= 3.0
+Kubernetes Provider >= 2.0
+Azure CLI (for login)
+
+Author
+
+Soumare Bakari – Azure Certified (AZ-104), Kubernetes Certified Administrator (CKA)
